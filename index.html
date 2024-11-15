@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IvF - Послуги з розробки сайтів</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto', sans-serif;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+        }
+        header .logo {
+            font-size: 1.5em;
+        }
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+        nav ul li {
+            margin-left: 20px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #f4f4f4;
+        }
+        .intro {
+            padding: 40px;
+            text-align: center;
+        }
+        .services, .team, .pricing {
+            padding: 40px;
+            width: 100%;
+            max-width: 1200px;
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+        .services .service, .pricing .package {
+            flex: 1;
+            padding: 20px;
+            background: #f4f4f4;
+            text-align: center;
+        }
+        .portfolio {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            max-width: 1200px;
+            margin: 40px 0;
+        }
+        .portfolio .item {
+            height: 200px;
+            background-color: #ddd;
+        }
+        .testimonials {
+            max-width: 600px;
+            text-align: center;
+            margin: 40px 0;
+        }
+        .testimonials .testimonial {
+            display: none;
+        }
+        .testimonials .testimonial.active {
+            display: block;
+        }
+        .team {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            background-color: #f9f9f9;
+        }
+        .sponsors, .social-media {
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .contact {
+            max-width: 600px;
+            text-align: center;
+            padding: 40px;
+        }
+        footer {
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header with Logo and Menu -->
+    <header>
+        <div class="logo">IvF</div>
+        <nav>
+            <ul>
+                <li><a href="#">Головна</a></li>
+                <li><a href="#">Послуги</a></li>
+                <li><a href="#">Портфоліо</a></li>
+                <li><a href="#">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Intro Section -->
+    <section class="intro">
+        <h1>Ласкаво просимо до IvF</h1>
+        <p>Ми допомагаємо створювати сучасні та зручні сайти для вашого бізнесу.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <div class="service">
+            <img src="icon1.png" alt="Іконка">
+            <h2>Послуга 1</h2>
+            <p>Опис послуги 1.</p>
+        </div>
+        <div class="service">
+            <img src="icon2.png" alt="Іконка">
+            <h2>Послуга 2</h2>
+            <p>Опис послуги 2.</p>
+        </div>
+        <div class="service">
+            <img src="icon3.png" alt="Іконка">
+            <h2>Послуга 3</h2>
+            <p>Опис послуги 3.</
